@@ -1,5 +1,5 @@
 import './App.css';
-import Render_ports from './Patchbay'
+import RenderPorts from './Patchbay'
 
 function App() {
 	return (
@@ -7,7 +7,7 @@ function App() {
 			<header className="App-header">
 				<p>Marta</p>
 			</header>
-			<Render_ports/>
+			<RenderPorts/>
 		</div>
 	);
 }
