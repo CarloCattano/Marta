@@ -1,0 +1,71 @@
+[
+
+    {
+        "id":1,
+        "name":"Carla",
+        "type":"input"
+    },
+    
+    {
+        "id":2,
+        "name":"Modep",
+        "type":"input"
+    },
+    
+    {
+        "id":3,
+        "name":"Ardour",
+        "type":"input"
+    },
+    
+    {
+        "id":4,
+        "name":"bitwig",
+        "type":"input"
+    },
+    
+    {
+        "id":5,
+        "name":"PureData",
+        "type":"input"
+    },
+    
+    {
+        "id":6,
+        "name":"SonicPi",
+        "type":"input"
+    },
+    {
+        "id":7,
+        "name":"SuperCollider",
+        "type":"input"
+    },
+    
+    {
+        "id":8,
+        "name":"Lego",
+        "type":"input"
+    },
+    
+    {
+        "id":9,
+        "name":"LMMS",
+        "type":"input"
+    },
+
+    {
+        "id":10,
+        "name":"HardwareOut",
+        "type":"output"
+    },
+    {
+        "id":11,
+        "name":"PureData_out",
+        "type":"output"
+    },
+    {
+        "id":12,
+        "name":"Carla_out",
+        "type":"output"
+    }
+]
