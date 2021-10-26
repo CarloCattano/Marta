@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import JsonData from './data.json'
+import JsonData from './test_data.json'
 
 import ReactFlow, {
 	addEdge,
@@ -15,7 +15,7 @@ function Render_ports(){
 			if (info.type === 'input') {
 				return(
 					ports.push({
-						id: info.id+info.name, type: 'input', data: { label: info.name },
+						id: info.name, type: 'input', data: { label: info.name },
 						position: { x: 100, y: 60 * info.id }, animated: true, arrowHeadType: 'arrowclosed',
 						sourcePosition: 'right'
 					})
@@ -24,13 +24,13 @@ function Render_ports(){
 			else if (info.type ===	 'output') {
 				return(
 					ports.push({
-						id: info.id+info.name, type: 'output', data: { label: info.name },
+						id: info.name, type: 'output', data: { label: info.name },
 						position: { x: 600, y:( 50 * info.id)-200 }, animated: true, arrowHeadType: 'arrowclosed',
 						targetPosition: 'left'
 					})
 				)
 			}
-		}
+		}	// info
 	)
 	return(
 		<div>
@@ -44,9 +44,11 @@ function Render_ports(){
 	)
 }
 const BasicFlow = () =>{
+
 	const [elements, setElements] = useState(ports);
 	const onElementsRemove = (elementsToRemove) => setElements((els) => removeElements(elementsToRemove, els));
-	const onConnect = (params) => setElements((els) => addEdge(params, els));
+	const onConnect = (params) => setElements((els) => addEdge(params, els), 	console.log("Source " ,params.source," Target ", params.target));
+
 
 	return (
 		<ReactFlow elements={elements} snapToGrid={true} 
