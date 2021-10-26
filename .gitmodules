@@ -1,0 +1,3 @@
+[submodule "jackpatch"]
+	path = jackpatch
+	url = git://github.com/jessecrossen/python-jackpatch

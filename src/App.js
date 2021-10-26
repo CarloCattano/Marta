@@ -1,7 +1,6 @@
 import './App.css';
 import RenderPorts from './Patchbay'
 
-
 function App() {
 	return (
 		<div className="App">
