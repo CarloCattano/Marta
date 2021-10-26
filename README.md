@@ -14,12 +14,6 @@ Audio and midi patchbay controlable via browser interface . Control your GNU/Lin
 - React flow front-end UI that renders dinamically 
 - A smart way to connect the last 2 between them , sockets / other
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
 #### Inspiration
   this project is inspired by FalkTX's [Carla ,  Catia ](https://kx.studio/Applications:Carla), applications , which are incredibly useful .
 
