@@ -9,7 +9,7 @@ import ReactFlow, {
 
 const ports= []
 
-function JsonDataDisplay(){
+function Render_ports(){
 	const DisplayData=JsonData.map(
 		(info) => {
 			if (info.type === 'input') {
@@ -55,4 +55,4 @@ const BasicFlow = () =>{
 	)
 }
 
-export default JsonDataDisplay;
+export default Render_ports;

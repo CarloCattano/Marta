@@ -1,5 +1,5 @@
 import './App.css';
-import JsonDataDisplay from './GeekTable'
+import Render_ports from './Patchbay'
 
 function App() {
 	return (
@@ -7,7 +7,7 @@ function App() {
 			<header className="App-header">
 				<p>Marta</p>
 			</header>
-			<JsonDataDisplay/>
+			<Render_ports/>
 		</div>
 	);
 }
