@@ -6,8 +6,8 @@ Audio and midi patchbay controlable via browser interface . Control your GNU/Lin
 - Connect / Disconnect audio/midi ports visually in node styled fashion
 - Monitor information about the state of the audio system .  
 <a href="url"><img src="https://github.com/CarloCattano/Marta/raw/main/screenshot.JPG" align="center" height="70%" width="70%" ></a>
-<p>*Try*</p>
-[UI Test page](https://carlocattano.github.io/Marta/)
+
+### [UI Test page](https://carlocattano.github.io/Marta/)
 
 **Required components**
 
