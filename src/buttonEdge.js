@@ -1,8 +1,9 @@
-import React from 'react';
+import React from 'react'
 import {
   getBezierPath,
   getEdgeCenter,
   getMarkerEnd,
+  removeElements,
 } from 'react-flow-renderer';
 
 import './index.css';
@@ -15,7 +16,15 @@ const onEdgeClick = (evt, id) => {
   let extractString = id.split("-")
   let sourceConection = extractString[1].substring(0,extractString[1].length - 4)
   let destinationConection = extractString[2].substring(0,extractString[2].length - 4)
-  let summedName = sourceConection+destinationConection
+  let summedName = sourceConection+"->"+destinationConection
+  var el = document.getElementById(id);
+
+  // Remove cable ok ,  how to REMOVE edge-button ? 
+  console.log(summedName)
+  //el.parentNode.removeChild(el);
+
+  el.remove()
+  console.log(el)
 };
 
 export default function CustomEdge({

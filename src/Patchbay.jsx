@@ -48,16 +48,20 @@ function RenderPorts(){
 
 // If a conection exists already ignore , if it doesnt add it to the connections array
 function process_conection(src, dst) {
+	
 	return !connections.includes(src.toString() + dst.toString()) ? connections.push(src.toString()+dst.toString()) : console.log("already in database"),console.log(connections)
+
 }
 
 function BasicFlow() {
 	const [elements, setElements] = useState(ports);
 	const onConnect = (params) => setElements((els) => addEdge({...params,type:'buttonedge'}, els), process_conection(params.source,params.target))
-
+    const onElementsRemove = (elementsToRemove) => setElements((els) => removeElements(elementsToRemove, els));
+	
 	return (
 		<ReactFlow elements={elements} snapToGrid={true}
-			onConnect={onConnect}  edgeTypes={edgeTypes}  key="edge-with-button">
+			onConnect={onConnect}  onElementsRemove={onElementsRemove} 
+			edgeTypes={edgeTypes}  key="edge-with-button">
 		</ReactFlow>
 	)
 }
