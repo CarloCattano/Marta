@@ -12,19 +12,14 @@ const foreignObjectSize = 40;
 
 const onEdgeClick = (evt, id) => {
   evt.stopPropagation();
-
-  let extractString = id.split("-")
-  let sourceConection = extractString[1].substring(0,extractString[1].length - 4)
-  let destinationConection = extractString[2].substring(0,extractString[2].length - 4)
-  let summedName = sourceConection+"->"+destinationConection
+  // let extractString = id.split("-")
+  // let sourceConection = extractString[1].substring(0,extractString[1].length - 4)
+  // let destinationConection = extractString[2].substring(0,extractString[2].length - 4)
+  // let summedName = sourceConection+"->"+destinationConection
   var el = document.getElementById(id);
-
-  // Remove cable ok ,  how to REMOVE edge-button ? 
-  console.log(summedName)
-  //el.parentNode.removeChild(el);
-
-  el.remove()
-  console.log(el)
+  // remove el and its parent
+ el.parentElement.remove()
+ el.remove()
 };
 
 export default function CustomEdge({

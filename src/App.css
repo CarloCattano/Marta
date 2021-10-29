@@ -14,6 +14,14 @@
   height:0.2rem;
 }
 
+.photo {
+  width: 40px;
+  height: 40px;
+}
 .dark-node{
   background-color: black;
+}
+
+.HeadText {
+   font-size: 12;
 }
