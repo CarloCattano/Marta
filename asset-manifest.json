@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Marta/static/css/main.ee964a9d.chunk.css",
-    "main.js": "/Marta/static/js/main.b320d2fc.chunk.js",
-    "main.js.map": "/Marta/static/js/main.b320d2fc.chunk.js.map",
+    "main.css": "/Marta/static/css/main.95b350ec.chunk.css",
+    "main.js": "/Marta/static/js/main.a316885a.chunk.js",
+    "main.js.map": "/Marta/static/js/main.a316885a.chunk.js.map",
     "runtime-main.js": "/Marta/static/js/runtime-main.580c24c9.js",
     "runtime-main.js.map": "/Marta/static/js/runtime-main.580c24c9.js.map",
     "static/js/2.20ee3660.chunk.js": "/Marta/static/js/2.20ee3660.chunk.js",
     "static/js/2.20ee3660.chunk.js.map": "/Marta/static/js/2.20ee3660.chunk.js.map",
     "index.html": "/Marta/index.html",
-    "static/css/main.ee964a9d.chunk.css.map": "/Marta/static/css/main.ee964a9d.chunk.css.map",
+    "static/css/main.95b350ec.chunk.css.map": "/Marta/static/css/main.95b350ec.chunk.css.map",
     "static/js/2.20ee3660.chunk.js.LICENSE.txt": "/Marta/static/js/2.20ee3660.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.580c24c9.js",
     "static/js/2.20ee3660.chunk.js",
-    "static/css/main.ee964a9d.chunk.css",
-    "static/js/main.b320d2fc.chunk.js"
+    "static/css/main.95b350ec.chunk.css",
+    "static/js/main.a316885a.chunk.js"
   ]
 }
