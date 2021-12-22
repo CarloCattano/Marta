@@ -1,5 +1,7 @@
 # Marta - web app
 
+Work in progress for self-study and investigation
+
 Audio and midi patchbay controlable via browser interface . Control your GNU/Linux  hardware from any device with ease without requiring a screen on the device
 
 ### Functions:
